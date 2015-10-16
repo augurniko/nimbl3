@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		773347AC1BCF50F500FEAC19 /* networkSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 773347AB1BCF50F500FEAC19 /* networkSingleton.m */; settings = {ASSET_TAGS = (); }; };
+		773347B01BCF59F600FEAC19 /* surveysData.m in Sources */ = {isa = PBXBuildFile; fileRef = 773347AF1BCF59F600FEAC19 /* surveysData.m */; settings = {ASSET_TAGS = (); }; };
+		773347B31BCFA52B00FEAC19 /* takeTheSurveyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 773347B21BCFA52B00FEAC19 /* takeTheSurveyViewController.m */; settings = {ASSET_TAGS = (); }; };
+		775093C21BCF496B007CC8F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 775093C11BCF496B007CC8F1 /* main.m */; };
+		775093C51BCF496B007CC8F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 775093C41BCF496B007CC8F1 /* AppDelegate.m */; };
+		775093C81BCF496C007CC8F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 775093C71BCF496C007CC8F1 /* ViewController.m */; };
+		775093CB1BCF496C007CC8F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775093C91BCF496C007CC8F1 /* Main.storyboard */; };
+		775093CD1BCF496C007CC8F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 775093CC1BCF496C007CC8F1 /* Assets.xcassets */; };
+		775093D01BCF496C007CC8F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775093CE1BCF496C007CC8F1 /* LaunchScreen.storyboard */; };
+		775093DB1BCF496C007CC8F1 /* Nimbl3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 775093DA1BCF496C007CC8F1 /* Nimbl3Tests.m */; };
+		77D391881BD07A700009F3B4 /* Bitmap.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77D391871BD07A700009F3B4 /* Bitmap.xcassets */; settings = {ASSET_TAGS = (); }; };
+		F859142800BAEDB44E8D26CA /* libPods-Nimbl3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D43C7BDD62DC7EAC92CF95B /* libPods-Nimbl3.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		775093D71BCF496C007CC8F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 775093B51BCF496B007CC8F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 775093BC1BCF496B007CC8F1;
+			remoteInfo = Nimbl3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D43C7BDD62DC7EAC92CF95B /* libPods-Nimbl3.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Nimbl3.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		181C165316A6F2785DBB04F4 /* Pods-Nimbl3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nimbl3.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nimbl3/Pods-Nimbl3.release.xcconfig"; sourceTree = "<group>"; };
+		773347AA1BCF50F500FEAC19 /* networkSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = networkSingleton.h; sourceTree = "<group>"; };
+		773347AB1BCF50F500FEAC19 /* networkSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = networkSingleton.m; sourceTree = "<group>"; };
+		773347AD1BCF565400FEAC19 /* constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		773347AE1BCF59F600FEAC19 /* surveysData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = surveysData.h; sourceTree = "<group>"; };
+		773347AF1BCF59F600FEAC19 /* surveysData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = surveysData.m; sourceTree = "<group>"; };
+		773347B11BCFA52A00FEAC19 /* takeTheSurveyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = takeTheSurveyViewController.h; sourceTree = "<group>"; };
+		773347B21BCFA52B00FEAC19 /* takeTheSurveyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = takeTheSurveyViewController.m; sourceTree = "<group>"; };
+		775093BD1BCF496B007CC8F1 /* Nimbl3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nimbl3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		775093C11BCF496B007CC8F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		775093C31BCF496B007CC8F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		775093C41BCF496B007CC8F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		775093C61BCF496C007CC8F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		775093C71BCF496C007CC8F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		775093CA1BCF496C007CC8F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		775093CC1BCF496C007CC8F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		775093CF1BCF496C007CC8F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		775093D11BCF496C007CC8F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		775093D61BCF496C007CC8F1 /* Nimbl3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nimbl3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		775093DA1BCF496C007CC8F1 /* Nimbl3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nimbl3Tests.m; sourceTree = "<group>"; };
+		775093DC1BCF496C007CC8F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77D391871BD07A700009F3B4 /* Bitmap.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Bitmap.xcassets; sourceTree = "<group>"; };
+		827440AC59B6329DB440A844 /* Pods-Nimbl3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nimbl3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nimbl3/Pods-Nimbl3.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		775093BA1BCF496B007CC8F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F859142800BAEDB44E8D26CA /* libPods-Nimbl3.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775093D31BCF496C007CC8F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		775093B41BCF496B007CC8F1 = {
+			isa = PBXGroup;
+			children = (
+				77D391871BD07A700009F3B4 /* Bitmap.xcassets */,
+				775093BF1BCF496B007CC8F1 /* Nimbl3 */,
+				775093D91BCF496C007CC8F1 /* Nimbl3Tests */,
+				775093BE1BCF496B007CC8F1 /* Products */,
+				AEE16119C59E711B6290A07C /* Pods */,
+				E71D4B4E3FFF191E86D2E6F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		775093BE1BCF496B007CC8F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				775093BD1BCF496B007CC8F1 /* Nimbl3.app */,
+				775093D61BCF496C007CC8F1 /* Nimbl3Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		775093BF1BCF496B007CC8F1 /* Nimbl3 */ = {
+			isa = PBXGroup;
+			children = (
+				773347AD1BCF565400FEAC19 /* constants.h */,
+				775093C31BCF496B007CC8F1 /* AppDelegate.h */,
+				775093C41BCF496B007CC8F1 /* AppDelegate.m */,
+				775093C61BCF496C007CC8F1 /* ViewController.h */,
+				775093C71BCF496C007CC8F1 /* ViewController.m */,
+				773347B11BCFA52A00FEAC19 /* takeTheSurveyViewController.h */,
+				773347B21BCFA52B00FEAC19 /* takeTheSurveyViewController.m */,
+				773347AA1BCF50F500FEAC19 /* networkSingleton.h */,
+				773347AB1BCF50F500FEAC19 /* networkSingleton.m */,
+				773347AE1BCF59F600FEAC19 /* surveysData.h */,
+				773347AF1BCF59F600FEAC19 /* surveysData.m */,
+				775093C91BCF496C007CC8F1 /* Main.storyboard */,
+				775093CC1BCF496C007CC8F1 /* Assets.xcassets */,
+				775093CE1BCF496C007CC8F1 /* LaunchScreen.storyboard */,
+				775093D11BCF496C007CC8F1 /* Info.plist */,
+				775093C01BCF496B007CC8F1 /* Supporting Files */,
+			);
+			path = Nimbl3;
+			sourceTree = "<group>";
+		};
+		775093C01BCF496B007CC8F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				775093C11BCF496B007CC8F1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		775093D91BCF496C007CC8F1 /* Nimbl3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				775093DA1BCF496C007CC8F1 /* Nimbl3Tests.m */,
+				775093DC1BCF496C007CC8F1 /* Info.plist */,
+			);
+			path = Nimbl3Tests;
+			sourceTree = "<group>";
+		};
+		AEE16119C59E711B6290A07C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				827440AC59B6329DB440A844 /* Pods-Nimbl3.debug.xcconfig */,
+				181C165316A6F2785DBB04F4 /* Pods-Nimbl3.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E71D4B4E3FFF191E86D2E6F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D43C7BDD62DC7EAC92CF95B /* libPods-Nimbl3.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		775093BC1BCF496B007CC8F1 /* Nimbl3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775093DF1BCF496C007CC8F1 /* Build configuration list for PBXNativeTarget "Nimbl3" */;
+			buildPhases = (
+				DDC3D33A6B12CBA836E42BBF /* Check Pods Manifest.lock */,
+				775093B91BCF496B007CC8F1 /* Sources */,
+				775093BA1BCF496B007CC8F1 /* Frameworks */,
+				775093BB1BCF496B007CC8F1 /* Resources */,
+				689ECD9898BD11718B596C3B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nimbl3;
+			productName = Nimbl3;
+			productReference = 775093BD1BCF496B007CC8F1 /* Nimbl3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		775093D51BCF496C007CC8F1 /* Nimbl3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775093E21BCF496C007CC8F1 /* Build configuration list for PBXNativeTarget "Nimbl3Tests" */;
+			buildPhases = (
+				775093D21BCF496C007CC8F1 /* Sources */,
+				775093D31BCF496C007CC8F1 /* Frameworks */,
+				775093D41BCF496C007CC8F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				775093D81BCF496C007CC8F1 /* PBXTargetDependency */,
+			);
+			name = Nimbl3Tests;
+			productName = Nimbl3Tests;
+			productReference = 775093D61BCF496C007CC8F1 /* Nimbl3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		775093B51BCF496B007CC8F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "NICOLAS DEMOGUE";
+				TargetAttributes = {
+					775093BC1BCF496B007CC8F1 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					775093D51BCF496C007CC8F1 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 775093BC1BCF496B007CC8F1;
+					};
+				};
+			};
+			buildConfigurationList = 775093B81BCF496B007CC8F1 /* Build configuration list for PBXProject "Nimbl3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 775093B41BCF496B007CC8F1;
+			productRefGroup = 775093BE1BCF496B007CC8F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				775093BC1BCF496B007CC8F1 /* Nimbl3 */,
+				775093D51BCF496C007CC8F1 /* Nimbl3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		775093BB1BCF496B007CC8F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D391881BD07A700009F3B4 /* Bitmap.xcassets in Resources */,
+				775093D01BCF496C007CC8F1 /* LaunchScreen.storyboard in Resources */,
+				775093CD1BCF496C007CC8F1 /* Assets.xcassets in Resources */,
+				775093CB1BCF496C007CC8F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775093D41BCF496C007CC8F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		689ECD9898BD11718B596C3B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nimbl3/Pods-Nimbl3-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDC3D33A6B12CBA836E42BBF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		775093B91BCF496B007CC8F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775093C81BCF496C007CC8F1 /* ViewController.m in Sources */,
+				773347B01BCF59F600FEAC19 /* surveysData.m in Sources */,
+				775093C51BCF496B007CC8F1 /* AppDelegate.m in Sources */,
+				773347B31BCFA52B00FEAC19 /* takeTheSurveyViewController.m in Sources */,
+				775093C21BCF496B007CC8F1 /* main.m in Sources */,
+				773347AC1BCF50F500FEAC19 /* networkSingleton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775093D21BCF496C007CC8F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775093DB1BCF496C007CC8F1 /* Nimbl3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		775093D81BCF496C007CC8F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 775093BC1BCF496B007CC8F1 /* Nimbl3 */;
+			targetProxy = 775093D71BCF496C007CC8F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		775093C91BCF496C007CC8F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				775093CA1BCF496C007CC8F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		775093CE1BCF496C007CC8F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				775093CF1BCF496C007CC8F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		775093DD1BCF496C007CC8F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		775093DE1BCF496C007CC8F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		775093E01BCF496C007CC8F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 827440AC59B6329DB440A844 /* Pods-Nimbl3.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nimbl3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eevolog.Nimbl3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		775093E11BCF496C007CC8F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 181C165316A6F2785DBB04F4 /* Pods-Nimbl3.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nimbl3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eevolog.Nimbl3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		775093E31BCF496C007CC8F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Nimbl3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eevolog.Nimbl3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nimbl3.app/Nimbl3";
+			};
+			name = Debug;
+		};
+		775093E41BCF496C007CC8F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Nimbl3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eevolog.Nimbl3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nimbl3.app/Nimbl3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		775093B81BCF496B007CC8F1 /* Build configuration list for PBXProject "Nimbl3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775093DD1BCF496C007CC8F1 /* Debug */,
+				775093DE1BCF496C007CC8F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		775093DF1BCF496C007CC8F1 /* Build configuration list for PBXNativeTarget "Nimbl3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775093E01BCF496C007CC8F1 /* Debug */,
+				775093E11BCF496C007CC8F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		775093E21BCF496C007CC8F1 /* Build configuration list for PBXNativeTarget "Nimbl3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775093E31BCF496C007CC8F1 /* Debug */,
+				775093E41BCF496C007CC8F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 775093B51BCF496B007CC8F1 /* Project object */;
+}

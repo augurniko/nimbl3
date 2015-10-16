@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="zbe-fF-ug0">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--SURVEYS-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="SURVEYS" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sCX-Vq-Nmf">
+                                <rect key="frame" x="4" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.19607843137254902" green="0.19607843137254902" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Octave" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WI4-Qs-1LR">
+                                <rect key="frame" x="249" y="112" width="102" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="WU0-y2-3cc"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="600" id="uki-bY-xX8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Marriott Bangkok Sukhumvit Hotel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nHb-mE-HTO">
+                                <rect key="frame" x="0.0" y="154" width="600" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="NUS-3w-6BK"/>
+                                    <constraint firstAttribute="width" constant="600" id="iZi-QK-0ct"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ff-AM-eco">
+                                <rect key="frame" x="210" y="512" width="180" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="PaF-gu-8ry"/>
+                                    <constraint firstAttribute="height" constant="40" id="iGI-Ea-Bu3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Take the survey">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="takeTheSurveys:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ano-9W-ee9"/>
+                                </connections>
+                            </button>
+                            <pageControl opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="1" translatesAutoresizingMaskIntoConstraints="NO" id="MXQ-vW-5T5">
+                                <rect key="frame" x="410" y="282" width="7" height="37"/>
+                            </pageControl>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Cwh-Tx-mp6">
+                                <rect key="frame" x="282" y="281" width="37" height="37"/>
+                                <color key="color" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.19594907407407408" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="MXQ-vW-5T5" secondAttribute="leading" constant="170" id="8LI-On-wSt"/>
+                            <constraint firstItem="Cwh-Tx-mp6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BYn-0Z-Fh3"/>
+                            <constraint firstItem="Cwh-Tx-mp6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Dpz-Fq-jxO"/>
+                            <constraint firstItem="nHb-mE-HTO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HUI-Mk-Gfd"/>
+                            <constraint firstItem="3ff-AM-eco" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ig4-a5-l74"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="3ff-AM-eco" secondAttribute="bottom" constant="48" id="Ru9-bl-xlo"/>
+                            <constraint firstItem="WI4-Qs-1LR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="68" id="YmF-Nr-R6Z"/>
+                            <constraint firstItem="sCX-Vq-Nmf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="a5Y-Lc-H2m"/>
+                            <constraint firstItem="sCX-Vq-Nmf" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="bUF-Tb-ZAB"/>
+                            <constraint firstItem="sCX-Vq-Nmf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-44" id="f7o-dp-2Qt"/>
+                            <constraint firstItem="nHb-mE-HTO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="110" id="ha7-Ic-RlF"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="sCX-Vq-Nmf" secondAttribute="bottom" id="j3r-Nj-znN"/>
+                            <constraint firstItem="WI4-Qs-1LR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="m6e-4F-Aib"/>
+                            <constraint firstItem="MXQ-vW-5T5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="zi2-Nn-Rri"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="SURVEYS" id="T9Y-3d-zCU">
+                        <barButtonItem key="leftBarButtonItem" systemItem="refresh" id="Rx8-Ye-4MJ">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="refreshSurveys:" destination="BYZ-38-t0r" id="YiQ-QS-a2J"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="list" width="22" style="done" id="C2j-s6-WtE">
+                            <inset key="imageInsets" minX="46" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <connections>
+                        <outlet property="myActivityIndicator" destination="Cwh-Tx-mp6" id="sVQ-1i-xR4"/>
+                        <outlet property="myButtonSurvey" destination="3ff-AM-eco" id="WeS-lE-dU7"/>
+                        <outlet property="myDescriptionSurvey" destination="nHb-mE-HTO" id="KDL-Rh-u7f"/>
+                        <outlet property="myPageControl" destination="MXQ-vW-5T5" id="4Ve-Ku-YOd"/>
+                        <outlet property="myScrollView" destination="sCX-Vq-Nmf" id="R7q-6C-ARp"/>
+                        <outlet property="myTitleSurvey" destination="WI4-Qs-1LR" id="HPe-8u-waH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="874" y="173"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ECS-ox-mLe">
+            <objects>
+                <navigationController id="zbe-fF-ug0" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="U84-Oe-897">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.058823529411764705" green="0.070588235294117646" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="x16-40-tsh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mWE-5f-VK8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="list" width="22" height="22"/>
+    </resources>
+</document>
