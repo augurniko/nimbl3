@@ -12,14 +12,8 @@
 
 +(networkSingleton*)sharedNetwork {
     static networkSingleton *sharedNetwork = nil;
-/*    static dispatch_once_t oncePredicate;
-    dispatch_once(&oncePredicate, ^{
-        _sharedClient = [[self alloc] initWithBaseURL:[NSURL URLWithString:URL_NIMBL3]];
-    });
-    return _sharedClient;*/
-    
+
     static dispatch_once_t onceToken;
-    
     dispatch_once(&onceToken, ^{
         sharedNetwork = [[self alloc] init];
     });
